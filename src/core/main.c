@@ -12,9 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include <stdio.h>
+#include "../crypto/crypto.h"
 
 int main() {
+    OpenSSL_add_all_ciphers();
+    OpenSSL_add_all_digests();
+    ERR_load_crypto_strings();
+
     printf("Hello, World!\n");
     return 0;
 }

@@ -17,6 +17,4 @@
 
 #include "crypto.h"
 
-int
-
 #endif //KARSE_X509_H
