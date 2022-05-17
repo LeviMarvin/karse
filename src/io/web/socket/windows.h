@@ -12,16 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#ifndef KARSE_HTTP_H
-#define KARSE_HTTP_H
+#ifndef KARSE_WINDOWS_H
+#define KARSE_WINDOWS_H
 
-#include "web.h"
-
-#ifdef PLATFORM_LINUX
-#include "socket/linux.h"
-#endif
-#ifdef PLATFORM_WINDOWS
-#include "socket/windows.h"
-#endif
-
-#endif //KARSE_HTTP_H
+#endif //KARSE_WINDOWS_H
