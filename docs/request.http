@@ -1,0 +1,13 @@
+### Windows CryptoAPI
+GET /MEkwRzBFMEMwQTAJBgUrDgMCGgUABBTGizQC0K9npky48j9H1zxnlQy0RAQUZteFnYUK6ApFtvVyJuqbAP6J4NUCCBgqVmgMeE7s HTTP/1.1
+Connection: Keep-Alive
+Accept: */*
+User-Agent: Microsoft-CryptoAPI/10.0
+Host: localhost.com
+
+### OpenSSL
+POST / HTTP/1.0
+Host: localhost.com
+Content-Type: application/ocsp-request
+
+0n0l0E0C0A0     ═║+╚╗║
